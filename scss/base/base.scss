@@ -1,0 +1,76 @@
+// --------------------
+// Base
+// --------------------
+*, *:before, *:after {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+  background: transparent;
+  border: 0;
+  border-style: solid;
+}
+body {
+  font-family: Open Sans;
+}
+::-moz-selection {
+  background: #12d469;
+  color: #FFFFFF;
+}
+::selection {
+  background: #12d469;
+  color: #FFFFFF;
+}
+.xl-ffscp {
+  font-family: Source Code Pro;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+input[type="text"] {
+  width: 100%;
+  display: block;
+}
+textarea {
+  resize: none;
+}
+input::-ms-clear, input::-ms-reveal, select::-ms-expand {
+  display: none;
+}
+input[type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+}
+input[type="submit"] {
+  padding: 0;
+}
+[placeholder]:empty:before {
+  content: attr(placeholder);
+}

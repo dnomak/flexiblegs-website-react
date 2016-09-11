@@ -1,0 +1,104 @@
+@font-face {
+	font-family: "icon";
+	src: url('../font/icon.eot');
+	src: url('../font/icon.eot?#iefix') format('eot'),
+		url('../font/icon.woff2') format('woff2'),
+		url('../font/icon.woff') format('woff'),
+		url('../font/icon.ttf') format('truetype'),
+		url('../font/icon.svg#icon') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "icon";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == dot-circle-o {
+		$char: "\E001";
+	}
+	@if $filename == flexiblegs-square {
+		$char: "\E002";
+	}
+	@if $filename == flexiblegs {
+		$char: "\E003";
+	}
+	@if $filename == github-alt {
+		$char: "\E004";
+	}
+	@if $filename == heart {
+		$char: "\E005";
+	}
+	@if $filename == long-arrow-left {
+		$char: "\E006";
+	}
+	@if $filename == long-arrow-right {
+		$char: "\E007";
+	}
+	@if $filename == rocket {
+		$char: "\E008";
+	}
+	@if $filename == twitter {
+		$char: "\E009";
+	}
+	@if $filename == youtube-play {
+		$char: "\E00A";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-dot-circle-o {
+	@include icon(dot-circle-o);
+}
+.icon-flexiblegs-square {
+	@include icon(flexiblegs-square);
+}
+.icon-flexiblegs {
+	@include icon(flexiblegs);
+}
+.icon-github-alt {
+	@include icon(github-alt);
+}
+.icon-heart {
+	@include icon(heart);
+}
+.icon-long-arrow-left {
+	@include icon(long-arrow-left);
+}
+.icon-long-arrow-right {
+	@include icon(long-arrow-right);
+}
+.icon-rocket {
+	@include icon(rocket);
+}
+.icon-twitter {
+	@include icon(twitter);
+}
+.icon-youtube-play {
+	@include icon(youtube-play);
+}

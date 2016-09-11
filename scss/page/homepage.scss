@@ -1,0 +1,41 @@
+// --------------------
+// Homepage
+// --------------------
+.device {
+  .backend {
+    fill:#ffffff;
+  }
+  .frontend {
+    fill:#222;
+  }
+  &--macbook {
+    svg {
+      width: 100px;
+      height: 58px;
+    }
+  }
+  &--ipad-landscape {
+    svg {
+      width: 58px;
+      height: 40px;
+    }
+  }
+  &--ipad-portrait {
+    svg {
+      width: 40px;
+      height: 58px;
+    }
+  }
+  &--iphone-landscape {
+    svg {
+      width: 58px;
+      height: 28px;
+    }
+  }
+  &--iphone-portrait {
+    svg {
+      width: 28px;
+      height: 56px;
+    }
+  }
+}

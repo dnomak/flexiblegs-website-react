@@ -1,0 +1,60 @@
+// --------------------
+// Icon
+// --------------------
+[class^="icon-"] {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+  font-size: 0;
+}
+[class^="icon-"]:before {
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  font-size: 40px;
+  height: 1em;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
+.icon-flexiblegs {
+  text-align: center;
+}
+.icon-flexiblegs:before {
+  width: 40px;
+}
+.icon-xs {
+  line-height: 18px;
+}
+.icon-xs:before {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.icon-sm {
+  line-height: 24px;
+}
+.icon-sm:before {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.icon-md {
+  line-height: 36px;
+}
+.icon-md:before {
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+}
+.icon-xl {
+  line-height: 64px;
+}
+.icon-xl:before {
+  font-size: 64px;
+  width: 64px;
+  height: 64px;
+}
