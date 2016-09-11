@@ -48,14 +48,17 @@
 	@if $filename == long-arrow-right {
 		$char: "\E007";
 	}
-	@if $filename == rocket {
+	@if $filename == pixelperfectcss {
 		$char: "\E008";
 	}
-	@if $filename == twitter {
+	@if $filename == rocket {
 		$char: "\E009";
 	}
-	@if $filename == youtube-play {
+	@if $filename == twitter {
 		$char: "\E00A";
+	}
+	@if $filename == youtube-play {
+		$char: "\E00B";
 	}
 
 	@return $char;
@@ -92,6 +95,9 @@
 }
 .icon-long-arrow-right {
 	@include icon(long-arrow-right);
+}
+.icon-pixelperfectcss {
+	@include icon(pixelperfectcss);
 }
 .icon-rocket {
 	@include icon(rocket);

@@ -517,7 +517,7 @@ var Layout = React.createClass({
                   }
                   {this.props.page == "colors" &&
                     <div>
-                      <Title title="Colors" />
+                      <Title title={this.state.content.header.colors} />
                       <div className={contentClass}>
                         <ColorsContent />
                       </div>

@@ -135,10 +135,7 @@ var ColorsContent = React.createClass({
               href="https://github.com/pixelperfectcss/pixelperfectcss-scss/blob/master/scss/helper/pixelperfectcss-settings.scss"
               target="_blank"
               className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-ba-red-300 xl-br8 xl-py16 xl-mb8 xl-tac">
-              <em className="icon-rocket icon-sm xl-co-white"/>
-              <span className="xl-di xl-vam xl-pl8">
-                Pixel Perfect CSS
-              </span>
+              <em className="icon-pixelperfectcss icon-sm xl-co-white"/>
             </a>
           </div>
         </div>

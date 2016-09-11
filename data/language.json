@@ -8,7 +8,8 @@
       "compatibility": "Compatibility",
       "responsiveTest": "Responsive Test",
       "motivation": "Motivation",
-      "future": "Future"
+      "future": "Future",
+      "colors": "Colors"
     },
     "common": {
       "quickStart": "Quick Start",
@@ -76,7 +77,8 @@
       "compatibility": "Uyumluluk",
       "responsiveTest": "Responsive Test",
       "motivation": "Motivasyon",
-      "future": "Gelecek"
+      "future": "Gelecek",
+      "colors": "Renkler"
     },
     "common": {
       "quickStart": "Hızlı Başlangıç",
