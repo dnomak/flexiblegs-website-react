@@ -93,6 +93,7 @@ var Layout = React.createClass({
 
   render: function() {
     var contentClass = "xl-lh36 xl-fs18 xl-fw300";
+
     return (
       <div>
         <Header
