@@ -1,9 +1,9 @@
 "use strict";
 
 import React from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
-let LanguageAction = require('../../action/LanguageAction');
+import LanguageAction from '../../action/LanguageAction';
 
 var Header = React.createClass({
 

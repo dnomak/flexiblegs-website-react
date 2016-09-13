@@ -1,8 +1,10 @@
+"use strict";
+
 import React from "react";
 import ReactDOM from 'react-dom';
-import { Router, Route, Link, browserHistory } from 'react-router'
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-let LanguageAction = require('./action/LanguageAction');
+import LanguageAction from './action/LanguageAction';
 
 import Homepage from './component/page/Homepage.react'
 import Install from './component/page/Install.react'

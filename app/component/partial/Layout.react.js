@@ -52,7 +52,6 @@ import FutureContent from '../content/FutureContent.react'
 import ColorsContent from '../content/ColorsContent.react'
 import PageNotFoundContent from '../content/PageNotFoundContent.react'
 
-
 import LanguageStore from '../../store/LanguageStore'
 
 var Layout = React.createClass({

@@ -4,7 +4,6 @@ import React from 'react';
 
 import { Link, browserHistory } from 'react-router'
 
-
 const queryString = require('query-string');
 
 var Sidebar = React.createClass({
@@ -66,12 +65,12 @@ var Sidebar = React.createClass({
     var keydown = function(left,right) {
       document.body.addEventListener('keydown', function (e) {
         if(e.which == 37) {
-          // window.location.assign(left);
-          browserHistory.push(left);
+          window.location.assign(left);
+          // browserHistory.push(left);
         }
         else if(e.which == 39) {
-          // window.location.assign(right);
-          browserHistory.push(right);
+          window.location.assign(right);
+          // browserHistory.push(right);
         }
       });
     }
@@ -133,7 +132,7 @@ var Sidebar = React.createClass({
       keydown(linkWrapCol, linkTable);
     }
     if (window.location.pathname == "/learn/table") {
-      keydown(linkWrapCol, linkFlexbox);
+      keydown(linkAuto, linkFlexbox);
     }
     if (window.location.pathname == "/learn/flexbox") {
       keydown(linkTable, linkNormal);
