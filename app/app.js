@@ -152,144 +152,144 @@ document.body.addEventListener('keydown', function (e) {
   var linkMasonry = "/learn/masonry?method=" + parsed.method;
   var linkBreakpoint = "/learn/breakpoint?method=" + parsed.method;
 
-  var keydown = function(left,right) {
+  var keydown = function(prev,next) {
     if(e.which == 37) {
-      return left;
+      return prev;
     }
     else if(e.which == 39) {
-      return right;
+      return next;
     }
   }
   if (window.location.pathname == "/") {
-    var hede = keydown("/colors","/install");
+    var link = keydown("/colors","/install");
   }
   if (window.location.pathname == "/install") {
-    var hede = keydown("/","/learn");
+    var link = keydown("/","/learn");
   }
   if (window.location.pathname == "/install/scss") {
-    var hede = keydown("/install/bem","/install/sass");
+    var link = keydown("/install/bem","/install/sass");
   }
   if (window.location.pathname == "/install/sass") {
-    var hede = keydown("/install/scss","/install/less");
+    var link = keydown("/install/scss","/install/less");
   }
   if (window.location.pathname == "/install/less") {
-    var hede = keydown("/install/sass","/install/stylus");
+    var link = keydown("/install/sass","/install/stylus");
   }
   if (window.location.pathname == "/install/stylus") {
-    var hede = keydown("/install/less","/install/scss-plus");
+    var link = keydown("/install/less","/install/scss-plus");
   }
   if (window.location.pathname == "/install/scss-plus") {
-    var hede = keydown("/install/stylus","/install/css");
+    var link = keydown("/install/stylus","/install/css");
   }
   if (window.location.pathname == "/install/css") {
-    var hede = keydown("/install/scss-plus","/install/bem");
+    var link = keydown("/install/scss-plus","/install/bem");
   }
   if (window.location.pathname == "/install/bem") {
-    var hede = keydown("/install/css","/install/scss");
+    var link = keydown("/install/css","/install/scss");
   }
   if (window.location.pathname == "/learn") {
-    var hede = keydown("/install","/compatibility");
+    var link = keydown("/install","/compatibility");
   }
   if (window.location.pathname == "/learn/wrap") {
-    var hede = keydown(linkBreakpoint, linkCol);
+    var link = keydown(linkBreakpoint, linkCol);
   }
   if (window.location.pathname == "/learn/col") {
-    var hede = keydown(linkWrap, linkColRow);
+    var link = keydown(linkWrap, linkColRow);
   }
   if (window.location.pathname == "/learn/col-row") {
-    var hede = keydown(linkCol, linkHidden);
+    var link = keydown(linkCol, linkHidden);
   }
   if (window.location.pathname == "/learn/hidden") {
-    var hede = keydown(linkColRow, linkNotHidden);
+    var link = keydown(linkColRow, linkNotHidden);
   }
   if (window.location.pathname == "/learn/not-hidden") {
-    var hede = keydown(linkHidden, linkGutter);
+    var link = keydown(linkHidden, linkGutter);
   }
   if (window.location.pathname == "/learn/gutter") {
-    var hede = keydown(linkNotHidden, linkOutside);
+    var link = keydown(linkNotHidden, linkOutside);
   }
   if (window.location.pathname == "/learn/outside") {
-    var hede = keydown(linkGutter, linkWrapCol);
+    var link = keydown(linkGutter, linkWrapCol);
   }
   if (window.location.pathname == "/learn/wrap-col") {
-    var hede = keydown(linkOutside, linkAuto);
+    var link = keydown(linkOutside, linkAuto);
   }
   if (window.location.pathname == "/learn/auto") {
-    var hede = keydown(linkWrapCol, linkTable);
+    var link = keydown(linkWrapCol, linkTable);
   }
   if (window.location.pathname == "/learn/table") {
-    var hede = keydown(linkAuto, linkFlexbox);
+    var link = keydown(linkAuto, linkFlexbox);
   }
   if (window.location.pathname == "/learn/flexbox") {
-    var hede = keydown(linkTable, linkNormal);
+    var link = keydown(linkTable, linkNormal);
   }
   if (window.location.pathname == "/learn/normal") {
-    var hede = keydown(linkFlexbox, linkLeft);
+    var link = keydown(linkFlexbox, linkLeft);
   }
   if (window.location.pathname == "/learn/left") {
-    var hede = keydown(linkNormal, linkCenter);
+    var link = keydown(linkNormal, linkCenter);
   }
   if (window.location.pathname == "/learn/center") {
-    var hede = keydown(linkLeft, linkRight);
+    var link = keydown(linkLeft, linkRight);
   }
   if (window.location.pathname == "/learn/right") {
-    var hede = keydown(linkCenter, linkTop);
+    var link = keydown(linkCenter, linkTop);
   }
   if (window.location.pathname == "/learn/top") {
-    var hede = keydown(linkRight, linkMiddle);
+    var link = keydown(linkRight, linkMiddle);
   }
   if (window.location.pathname == "/learn/middle") {
-    var hede = keydown(linkTop, linkBottom);
+    var link = keydown(linkTop, linkBottom);
   }
   if (window.location.pathname == "/learn/bottom") {
-    var hede = keydown(linkMiddle, linkBetween);
+    var link = keydown(linkMiddle, linkBetween);
   }
   if (window.location.pathname == "/learn/between") {
-    var hede = keydown(linkBottom, linkAround);
+    var link = keydown(linkBottom, linkAround);
   }
   if (window.location.pathname == "/learn/around") {
-    var hede = keydown(linkBetween, linkBaseline);
+    var link = keydown(linkBetween, linkBaseline);
   }
   if (window.location.pathname == "/learn/baseline") {
-    var hede = keydown(linkAround, linkFirst);
+    var link = keydown(linkAround, linkFirst);
   }
   if (window.location.pathname == "/learn/first") {
-    var hede = keydown(linkBaseline, linkNotFirst);
+    var link = keydown(linkBaseline, linkNotFirst);
   }
   if (window.location.pathname == "/learn/not-first") {
-    var hede = keydown(linkFirst, linkLast);
+    var link = keydown(linkFirst, linkLast);
   }
   if (window.location.pathname == "/learn/last") {
-    var hede = keydown(linkNotFirst, linkNotLast);
+    var link = keydown(linkNotFirst, linkNotLast);
   }
   if (window.location.pathname == "/learn/not-last") {
-    var hede = keydown(linkLast, linkReverse);
+    var link = keydown(linkLast, linkReverse);
   }
   if (window.location.pathname == "/learn/reverse") {
-    var hede = keydown(linkNotLast, linkNotReverse);
+    var link = keydown(linkNotLast, linkNotReverse);
   }
   if (window.location.pathname == "/learn/not-reverse") {
-    var hede = keydown(linkReverse, linkMasonry);
+    var link = keydown(linkReverse, linkMasonry);
   }
   if (window.location.pathname == "/learn/masonry") {
-    var hede = keydown(linkNotReverse, linkBreakpoint);
+    var link = keydown(linkNotReverse, linkBreakpoint);
   }
   if (window.location.pathname == "/learn/breakpoint") {
-    var hede = keydown(linkMasonry, linkWrap);
+    var link = keydown(linkMasonry, linkWrap);
   }
   if (window.location.pathname == "/compatibility") {
-    var hede = keydown("/learn","/motivation");
+    var link = keydown("/learn","/motivation");
   }
   if (window.location.pathname == "/motivation") {
-    var hede = keydown("/compatibility","/future");
+    var link = keydown("/compatibility","/future");
   }
   if (window.location.pathname == "/future") {
-    var hede = keydown("/motivation","/colors");
+    var link = keydown("/motivation","/colors");
   }
   if (window.location.pathname == "/colors") {
-    var hede = keydown("/future","/");
+    var link = keydown("/future","/");
   }
 
-  browserHistory.push(hede);
+  browserHistory.push(link);
 
 });
