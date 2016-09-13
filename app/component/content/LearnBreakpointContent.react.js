@@ -2,11 +2,10 @@
 
 import React from 'react';
 
-const queryString = require('query-string');
-
 var LearnBreakpointContent = React.createClass({
   render: function() {
 
+    const queryString = require('query-string');
     const parsed = queryString.parse(location.search);
 
     if (parsed.method == "css" || parsed.method == "bem" || parsed.method == "scss" || parsed.method == "sass" || parsed.method == "less" || parsed.method == "stylus") {
