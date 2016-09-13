@@ -346,7 +346,7 @@ var Sidebar = React.createClass({
             </div>
           </div>
         }
-        <div className="xl-ffscp xl-fs14 xl-tac xl-co-gray-500 xl-mt16">v5.5.3</div>
+        <div className="xl-ffscp xl-fs14 xl-tac xl-co-gray-500 xl-my24">v5.5.3</div>
       </div>
     );
   }

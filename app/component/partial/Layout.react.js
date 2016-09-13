@@ -98,7 +98,7 @@ var Layout = React.createClass({
         <Header
           lang={this.state.content.lang}
           content={this.state.content.header} />
-        <div className="xl-m24">
+        <div className="xl-mx24 xl-mt24">
           <div className="xl-maw1280 xl-ma">
             <div className="wrap xl-gutter-24 md-1">
               <div className="col xl-9-12 lg-5-7">
