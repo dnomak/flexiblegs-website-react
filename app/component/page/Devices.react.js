@@ -4,12 +4,12 @@ import React from 'react';
 
 import Layout from '../partial/Layout.react'
 
-var Future = React.createClass({
+var Devices = React.createClass({
   render: function() {
     return (
-      <Layout page="future" />
+      <Layout page="devices" />
     )
   }
 });
 
-module.exports = Future;
+module.exports = Devices;

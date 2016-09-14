@@ -47,8 +47,8 @@ import LearnNotReverse from './component/page/LearnNotReverse.react'
 import LearnMasonry from './component/page/LearnMasonry.react'
 import LearnBreakpoint from './component/page/LearnBreakpoint.react'
 import Compatibility from './component/page/Compatibility.react'
-import Motivation from './component/page/Motivation.react'
-import Future from './component/page/Future.react'
+import Devices from './component/page/Devices.react'
+import Test from './component/page/Test.react'
 import Colors from './component/page/Colors.react'
 import PageNotFound from './component/page/PageNotFound.react'
 
@@ -95,8 +95,8 @@ var routes = (
     <Route path="/learn/masonry" component={LearnMasonry}/>
     <Route path="/learn/breakpoint" component={LearnBreakpoint}/>
     <Route path="/compatibility" component={Compatibility}/>
-    <Route path="/motivation" component={Motivation}/>
-    <Route path="/future" component={Future}/>
+    <Route path="/devices" component={Devices}/>
+    <Route path="/test" component={Test}/>
     <Route path="/colors" component={Colors}/>
     <Route path="*" component={PageNotFound}/>
   </Router>
@@ -278,18 +278,13 @@ document.body.addEventListener('keydown', function (e) {
     var link = keydown(linkMasonry, linkWrap);
   }
   if (window.location.pathname == "/compatibility") {
-    var link = keydown("/learn","/motivation");
+    var link = keydown("/learn","/devices");
   }
-  if (window.location.pathname == "/motivation") {
-    var link = keydown("/compatibility","/future");
-  }
-  if (window.location.pathname == "/future") {
-    var link = keydown("/motivation","/colors");
+  if (window.location.pathname == "/devices") {
+    var link = keydown("/compatibility","/colors");
   }
   if (window.location.pathname == "/colors") {
-    var link = keydown("/future","/");
+    var link = keydown("/devices","/");
   }
-
   browserHistory.push(link);
-
 });

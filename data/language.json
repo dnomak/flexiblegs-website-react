@@ -6,9 +6,8 @@
       "install": "Install",
       "learn": "Learn",
       "compatibility": "Compatibility",
-      "responsiveTest": "Responsive Test",
-      "motivation": "Motivation",
-      "future": "Future",
+      "devices": "Devices",
+      "story": "Story",
       "colors": "Colors"
     },
     "common": {
@@ -56,13 +55,8 @@
       "line002": "If you use <span class='xl-fw400'>Flexbox</span> we support <span class='xl-fw400'>Internet Explorer 10 and +</span> versions.",
       "line003": "Other than the two exceptions above we support all the major desktop and mobile browsers."
     },
-    "motivation": {
-      "line001": "The links that makes us super happy and motivated."
-    },
-    "future": {
-      "contentManagementSystem": "Content Management System",
-      "coffee": "Coffee",
-      "logoShapedCakeMold": "Logo Shaped Cake Mold"
+    "devices": {
+      "line001": "To view this page, your resolution should be larger than <span class='xl-fw400'>1024 pixels</span>.",
     },
     "pageNotFound": {
       "line001": "Page not found."
@@ -75,9 +69,8 @@
       "install": "Kurulum",
       "learn": "Öğrenme",
       "compatibility": "Uyumluluk",
-      "responsiveTest": "Responsive Test",
-      "motivation": "Motivasyon",
-      "future": "Gelecek",
+      "devices": "Cihazlar",
+      "story": "Hikaye",
       "colors": "Renkler"
     },
     "common": {
@@ -125,13 +118,8 @@
       "line002": "<span class='xl-fw400'>Flexbox</span> özelliğini kullanıyorsak <span class='xl-fw400'>Internet Explorer 10 ve üzeri</span> versiyonları destekliyoruz.",
       "line003": "Yukarıdaki iki durum dışında tüm masaüstü ve mobil browserlara destek verilmektedir."
     },
-    "motivation": {
-      "line001": "Projeye dört elle sarılmamızı sağlayan bazı linkler."
-    },
-    "future": {
-      "contentManagementSystem": "İçerik Yönetim Sistemi",
-      "coffee": "Kahve",
-      "logoShapedCakeMold": "Logo Şeklinde Kek Kalıbı"
+    "devices": {
+      "line001": "Bu sayfayı görüntülemek için çözünürlüğünüzün <span class='xl-fw400'>1024 pixel</span>'den büyük olması gerekmektedir.",
     },
     "pageNotFound": {
       "line001": "Sayfa bulunamadı."

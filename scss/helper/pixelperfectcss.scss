@@ -160,7 +160,9 @@ $selector-display: (
 );
 
 // width
-$property-width: ();
+$property-width: (
+  16,
+);
 $selector-width: (
   "cl": "not-breakpoint-class",
 );

@@ -1,0 +1,204 @@
+// --------------------
+// Devices
+// --------------------
+
+// Macbook (and Others)
+.device-xl {
+  display: block;
+  height: 862px;
+  background: url(../svg/macbook.svg) center center no-repeat;
+  background-size: 1484px 862px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+
+.device-xl iframe {
+  margin-top: 50px;
+  max-width: 1140px;
+  height: 712px;
+  overflow: hidden;
+}
+
+// iPad (Landscape)
+.device-lg {
+  height: 848px;
+  background: url(../svg/ipad-landscape.svg) center center no-repeat;
+  background-size: 1244px 848px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+
+.device-lg iframe {
+  margin-top: 40px;
+  max-width: 1024px;
+  height: 768px;
+  overflow: hidden;
+}
+
+// iPad (Portrait)
+.device-md {
+  height: 1244px;
+  background: url(../svg/ipad-portrait.svg) center center no-repeat;
+  background-size: 848px 1244px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+
+.device-md iframe {
+  margin-top: 110px;
+  max-width: 768px;
+  height: 1024px;
+  overflow: hidden;
+}
+
+// iPhone (Landscape)
+.device-sm {
+  height: 415px;
+  background: url(../svg/iphone-landscape.svg) center center no-repeat;
+  background-size: 847px 415px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+
+.device-sm iframe {
+  margin-top: 20px;
+  max-width: 667px;
+  height: 375px;
+  overflow: hidden;
+}
+
+// iPhone (Portrait)
+.device-xs {
+  height: 916px;
+  background: url(../svg/iphone-portrait.svg) center center no-repeat;
+  background-size: 454px 916px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+
+.device-xs iframe {
+  margin-top: 90px;
+  max-width: 414px;
+  height: 736px;
+  overflow: hidden;
+}
+
+// xl
+.test-item {
+  background: $blue-300;
+  color: $white;
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.test-item span {
+  color: $blue-100;
+}
+
+.test-item--logo {
+  padding: 50px 0;
+}
+
+.test-item--slider {
+  padding: 70px 0;
+}
+
+.test-item--content {
+  padding: 76px 0;
+}
+
+.test-item--sidebar {
+  padding: 76px 0;
+}
+
+.test-item--section {
+  padding: 30px 0;
+}
+
+// lg
+@media (max-width: 1024px) {
+  .test-item {
+    background: $red-300;
+  }
+  .test-item span {
+    color: $red-100;
+  }
+  .test-item--slider {
+    padding: 62px 0;
+  }
+  .test-item--content {
+    padding: 66px 0;
+  }
+  .test-item--sidebar {
+    padding: 66px 0;
+  }
+  .test-item--section {
+    padding: 26px 0;
+  }
+}
+
+// md
+@media (max-width: 768px) {
+  .test-item {
+    background: $green-300;
+  }
+  .test-item span {
+    color: $green-100;
+  }
+  .test-item--slider {
+    padding: 76px 0;
+  }
+  .test-item--content {
+    padding: 96px 0;
+  }
+  .test-item--sidebar {
+    padding: 96px 0;
+  }
+}
+
+// sm
+@media (max-width: 667px) {
+  .test-item {
+    background: $purple-300;
+  }
+  .test-item span {
+    color: $purple-100;
+  }
+  .test-item--slider {
+    padding: 62px 0;
+  }
+  .test-item--content {
+    padding: 66px 0;
+  }
+  .test-item--sidebar {
+    padding: 66px 0;
+  }
+  .test-item--section {
+    padding: 26px 0;
+  }
+}
+
+// xs
+@media (max-width: 414px) {
+  .test-item {
+    background: $yellow-300;
+  }
+  .test-item span {
+    color: $yellow-100;
+  }
+}

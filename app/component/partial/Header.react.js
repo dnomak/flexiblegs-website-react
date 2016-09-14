@@ -28,7 +28,7 @@ var Header = React.createClass({
                 <div className="col">
                   <Link
                     to="/"
-                    className="icon-flexiblegs xl-vam xl-dib xl-p8 xl-co-white"/>
+                    className="icon-flexiblegs xl-vam xl-dib xl-pr8 xl-py8 xl-co-white"/>
                 </div>
                 <div className="col md-my8">
                   <Link
@@ -46,20 +46,10 @@ var Header = React.createClass({
                     className={path == "compatibility" ? linkClassActive : linkClass}>
                     {this.props.content.compatibility}
                   </Link>
-                  {/*<Link
-                    to="/responsive-test"
-                    className={path == "responsive-test" ? linkClassActive : linkClass}>
-                    {this.props.content.responsiveTest}
-                  </Link>*/}
                   <Link
-                    to="/motivation"
-                    className={path == "motivation" ? linkClassActive : linkClass}>
-                    {this.props.content.motivation}
-                  </Link>
-                  <Link
-                    to="/future"
-                    className={path == "future" ? linkClassActive : linkClass}>
-                    {this.props.content.future}
+                    to="/devices"
+                    className={path == "devices" ? linkClassActive : linkClass}>
+                    {this.props.content.devices}
                   </Link>
                   {this.props.lang == "en" &&
                     <Link
@@ -86,6 +76,12 @@ var Header = React.createClass({
                       <div className="xl-dib xl-co-purple-300">r</div>
                     </Link>
                   }
+                  <a
+                    href="https://medium.com/geliştirici-ve-tasarımcı-sohbetleri/flexible-grid-systemin-hikayesi-747f379573e4"
+                    target="_blank"
+                    className={linkClass}>
+                    {this.props.content.story}
+                  </a>
                 </div>
               </div>
             </div>

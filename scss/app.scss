@@ -37,6 +37,7 @@
 // Page
 // --------------------
 @import "page/homepage";
+@import "page/devices";
 
 // --------------------
 // Component
@@ -50,4 +51,7 @@
 @import "helper/pixelperfectcss";
 @import "../bower_components/pixelperfectcss-scss/scss/helper/pixelperfectcss-scss";
 
+// --------------------
+// Breakpoint
+// --------------------
 @import "base/breakpoint";
