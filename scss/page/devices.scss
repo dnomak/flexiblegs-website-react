@@ -97,8 +97,10 @@
 .test-item {
   background: $blue-300;
   color: $white;
-  border-radius: 6px;
-  margin: 10px 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 8px 0;
   padding: 10px 0;
   text-align: center;
   display: block;
@@ -110,12 +112,13 @@
   color: $blue-100;
 }
 
-.test-item--logo {
+.test-item--logo,
+.test-item--menu {
   padding: 50px 0;
 }
 
 .test-item--slider {
-  padding: 70px 0;
+  padding: 72px 0;
 }
 
 .test-item--content {
@@ -139,7 +142,7 @@
     color: $red-100;
   }
   .test-item--slider {
-    padding: 62px 0;
+    padding: 66px 0;
   }
   .test-item--content {
     padding: 66px 0;
@@ -159,6 +162,9 @@
   }
   .test-item span {
     color: $green-100;
+  }
+  .test-item--menu {
+    padding: 18px 0;
   }
   .test-item--slider {
     padding: 76px 0;

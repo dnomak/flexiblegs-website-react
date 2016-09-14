@@ -10,7 +10,7 @@ var Test = React.createClass({
 
   render: function() {
     return (
-      <div className="xl-ffscp" style={{margin: "0 10px 0 10px"}}>
+      <div className="xl-ffscp xl-mx16 xl-my8">
         <div className="wrap xl-gutter-16">
           <div className="col xl-3-12 lg-4-11 md-1-1 sm-1-1">
             <div className="test-item test-item--logo"><span>Logo</span> 01</div>
