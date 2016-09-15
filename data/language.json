@@ -56,7 +56,7 @@
       "line003": "Other than the two exceptions above we support all the major desktop and mobile browsers."
     },
     "devices": {
-      "line001": "To view this page, your resolution should be larger than <span class='xl-fw400'>1024 pixels</span>.",
+      "line001": "You need a resolution wider than <span class='xl-fw400'>1024 pixels</span> to view this page.",
     },
     "pageNotFound": {
       "line001": "Page not found."
