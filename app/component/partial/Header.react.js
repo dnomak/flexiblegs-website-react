@@ -77,7 +77,7 @@ var Header = React.createClass({
                     </Link>
                   }
                   <a
-                    href="https://medium.com/geliştirici-ve-tasarımcı-sohbetleri/flexible-grid-systemin-hikayesi-747f379573e4"
+                    href="https://medium.com/@dnomak/flexible-grid-systemin-hikayesi-747f379573e4"
                     target="_blank"
                     className={linkClass}>
                     {this.props.content.story}
