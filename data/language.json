@@ -45,7 +45,7 @@
       "andAddTheProjectAsFollows": "and add the project as follows."
     },
     "learn": {
-      "line001": "Before starting learn you need to know about <span class='xl-fw400'>Grid System</span> and <span class='xl-fw400'>Responive Design</span>.",
+      "line001": "Before starting learn you need to know about <span class='xl-fw400'>Grid System</span> and <span class='xl-fw400'>Responsive Design</span>.",
       "line002": "Switching to compile view you view the CSS properties of classes and mixins. Having a knowledge about this topic will improve your usage.",
       "line003": "On <span class='xl-fw400'>CSS</span> section static, on <span class='xl-fw400'>Sass</span>, <span class='xl-fw400'>Less</span> or <span class='xl-fw400'>Stylus</span> sections dynamic sections are marked as <span class='xl-fw400'>@variable</span>.",
       "line004": "For browser compatability <span class='xl-fw400'>-ms</span>, <span class='xl-fw400'>-moz</span> and <span class='xl-fw400'>-webkit</span> aren't added to the samples."
