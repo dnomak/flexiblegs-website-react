@@ -73,7 +73,7 @@ var Sidebar = React.createClass({
               </span>
             </Link>
             <a
-              href="https://youtu.be/4306ejHx17Y"
+              href="https://youtu.be/-hGM8y8WutM"
               target="_target"
               className="flexiblegs-presentation xl-db xl-co-white xl-bw4 xl-bo-white xl-pr xl-mb16 xl-br8 xl-oh">
               <em className="icon-youtube-play icon-xl xl-1-1 xl-tac xl-pa xl-t50p xl-tty-50p" />
