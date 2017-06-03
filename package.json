@@ -26,6 +26,10 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
+  "engines": {
+    "node": ">= 6.9.5",
+    "npm": ">= 3.10.10"
+  },
   "scripts": {
     "build": "npm install && bower install --allow-root && gulp"
   }

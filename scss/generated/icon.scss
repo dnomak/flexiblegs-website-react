@@ -27,38 +27,35 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == dot-circle-o {
+	@if $filename == flexiblegs {
 		$char: "\E001";
 	}
-	@if $filename == flexiblegs-square {
+	@if $filename == github-alt {
 		$char: "\E002";
 	}
-	@if $filename == flexiblegs {
+	@if $filename == heart {
 		$char: "\E003";
 	}
-	@if $filename == github-alt {
+	@if $filename == long-arrow-left {
 		$char: "\E004";
 	}
-	@if $filename == heart {
+	@if $filename == long-arrow-right {
 		$char: "\E005";
 	}
-	@if $filename == long-arrow-left {
+	@if $filename == patreon {
 		$char: "\E006";
 	}
-	@if $filename == long-arrow-right {
+	@if $filename == pixelperfectcss {
 		$char: "\E007";
 	}
-	@if $filename == pixelperfectcss {
+	@if $filename == rocket {
 		$char: "\E008";
 	}
-	@if $filename == rocket {
+	@if $filename == twitter {
 		$char: "\E009";
 	}
-	@if $filename == twitter {
-		$char: "\E00A";
-	}
 	@if $filename == youtube-play {
-		$char: "\E00B";
+		$char: "\E00A";
 	}
 
 	@return $char;
@@ -75,12 +72,6 @@
 	}
 }
 
-.icon-dot-circle-o {
-	@include icon(dot-circle-o);
-}
-.icon-flexiblegs-square {
-	@include icon(flexiblegs-square);
-}
 .icon-flexiblegs {
 	@include icon(flexiblegs);
 }
@@ -95,6 +86,9 @@
 }
 .icon-long-arrow-right {
 	@include icon(long-arrow-right);
+}
+.icon-patreon {
+	@include icon(patreon);
 }
 .icon-pixelperfectcss {
 	@include icon(pixelperfectcss);

@@ -11,6 +11,7 @@
       "colors": "Colors"
     },
     "common": {
+      "patreon": "Become a Patron!",
       "quickStart": "Quick Start",
       "dynamicCore": "Dynamic (Core)",
       "dynamicCompilationTool": "Dynamic (Compilation Tool)",
@@ -74,6 +75,7 @@
       "colors": "Renkler"
     },
     "common": {
+      "patreon": "Patron Ol!",
       "quickStart": "Hızlı Başlangıç",
       "dynamicCore": "Dinamik (Çekirdek)",
       "dynamicCompilationTool": "Dinamik (Derleme Aracı)",

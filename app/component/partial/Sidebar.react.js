@@ -64,20 +64,26 @@ var Sidebar = React.createClass({
 
     return (
       <div>
+        <a href="https://www.patreon.com/bePatron?u=5286443" style={{backgroundColor: '#E6461A'}} target="_blank" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-br8 xl-py16 xl-mb16 xl-tac">
+          <em className="icon-patreon icon-sm xl-co-white"/>
+          <span className="xl-di xl-vam xl-pl8">
+            {this.props.common.patreon}
+          </span>
+        </a>
         {!this.props.page &&
           <div>
-            <Link to="/learn/wrap?method=css" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-ba-blue-300 xl-br8 xl-py16 xl-mb16 xl-tac">
-              <em className="icon-rocket icon-sm xl-co-white"/>
-              <span className="xl-di xl-vam xl-pl8">
-                {this.props.common.quickStart} (CSS)
-              </span>
-            </Link>
             <a
               href="https://youtu.be/-hGM8y8WutM"
               target="_target"
               className="flexiblegs-presentation xl-db xl-co-white xl-bw4 xl-bo-white xl-pr xl-mb16 xl-br8 xl-oh">
               <em className="icon-youtube-play icon-xl xl-1-1 xl-tac xl-pa xl-t50p xl-tty-50p" />
             </a>
+            <Link to="/learn/wrap?method=css" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-ba-blue-300 xl-br8 xl-py16 xl-mb16 xl-tac">
+              <em className="icon-rocket icon-sm xl-co-white"/>
+              <span className="xl-di xl-vam xl-pl8">
+                {this.props.common.quickStart} (CSS)
+              </span>
+            </Link>
             <div dangerouslySetInnerHTML={{__html:mailchimpForm}}/>
           </div>
         }

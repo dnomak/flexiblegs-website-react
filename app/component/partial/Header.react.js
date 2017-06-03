@@ -94,10 +94,6 @@ var Header = React.createClass({
                 href="https://twitter.com/flexiblegs"
                 target="_blank"
                 className="icon-twitter icon-sm xl-vam xl-dib xl-co-white xl-p8 xl-mr8"/>
-              <a
-                href="https://goo.gl/6n5oTO"
-                target="_blank"
-                className="icon-youtube-play icon-sm xl-vam xl-dib xl-co-white xl-p8 xl-mr16"/>
               {this.props.lang == "en" &&
                 <div
                   onClick={this.switchLanguage.bind(this,'tr')}
