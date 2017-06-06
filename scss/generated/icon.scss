@@ -27,35 +27,38 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == flexiblegs {
+	@if $filename == facebook-square {
 		$char: "\E001";
 	}
-	@if $filename == github-alt {
+	@if $filename == flexiblegs {
 		$char: "\E002";
 	}
-	@if $filename == heart {
+	@if $filename == github-alt {
 		$char: "\E003";
 	}
-	@if $filename == long-arrow-left {
+	@if $filename == heart {
 		$char: "\E004";
 	}
-	@if $filename == long-arrow-right {
+	@if $filename == long-arrow-left {
 		$char: "\E005";
 	}
-	@if $filename == patreon {
+	@if $filename == long-arrow-right {
 		$char: "\E006";
 	}
-	@if $filename == pixelperfectcss {
+	@if $filename == patreon {
 		$char: "\E007";
 	}
-	@if $filename == rocket {
+	@if $filename == pixelperfectcss {
 		$char: "\E008";
 	}
-	@if $filename == twitter {
+	@if $filename == rocket {
 		$char: "\E009";
 	}
-	@if $filename == youtube-play {
+	@if $filename == twitter {
 		$char: "\E00A";
+	}
+	@if $filename == youtube-play {
+		$char: "\E00B";
 	}
 
 	@return $char;
@@ -72,6 +75,9 @@
 	}
 }
 
+.icon-facebook-square {
+	@include icon(facebook-square);
+}
 .icon-flexiblegs {
 	@include icon(flexiblegs);
 }
