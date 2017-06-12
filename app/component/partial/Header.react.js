@@ -94,17 +94,21 @@ var Header = React.createClass({
                 href="https://twitter.com/flexiblegs"
                 target="_blank"
                 className="icon-twitter icon-sm xl-vam xl-dib xl-co-white xl-p8 xl-mr8"/>
+              <a
+                href="https://facebook.com/flexiblegs"
+                target="_blank"
+                className="icon-facebook-square icon-sm xl-vam xl-dib xl-co-white xl-p8 xl-mr8"/>
               {this.props.lang == "en" &&
                 <div
                   onClick={this.switchLanguage.bind(this,'tr')}
-                  className="xl-cp xl-ffscp xl-vam xl-px8 xl-dib xl-fs14 xl-lh24 xl-fw400 xl-ba-white xl-br4 xl-co-black-500">
+                  className="xl-cp xl-ffscp xl-vam xl-px8 xl-px8 xl-m8 xl-dib xl-fs14 xl-lh24 xl-fw400 xl-br4 xl-co-gray-500 xl-ba-black-300">
                   Türkçe
                 </div>
               }
               {this.props.lang == "tr" &&
                 <div
                   onClick={this.switchLanguage.bind(this,'en')}
-                  className="xl-cp xl-ffscp xl-vam xl-px8 xl-dib xl-fs14 xl-lh24 xl-fw400 xl-ba-white xl-br4 xl-co-black-500">
+                  className="xl-cp xl-ffscp xl-vam xl-px8 xl-px8 xl-m8 xl-dib xl-fs14 xl-lh24 xl-fw400 xl-br4 xl-co-gray-500 xl-ba-black-300">
                   English
                 </div>
               }
