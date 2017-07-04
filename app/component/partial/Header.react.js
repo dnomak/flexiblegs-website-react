@@ -52,36 +52,46 @@ var Header = React.createClass({
                     {this.props.content.devices}
                   </Link>
                   {this.props.lang == "en" &&
-                    <Link
-                      to="/colors"
-                      className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
-                      <div className="xl-dib xl-co-red-300">C</div>
-                      <div className="xl-dib xl-co-green-300">o</div>
-                      <div className="xl-dib xl-co-blue-300">l</div>
-                      <div className="xl-dib xl-co-purple-300">o</div>
-                      <div className="xl-dib xl-co-yellow-300">r</div>
-                      <div className="xl-dib xl-co-blue-300">s</div>
-                    </Link>
+                    <span>
+                      <Link
+                        to="/colors"
+                        className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
+                        <div className="xl-dib xl-co-red-300">C</div>
+                        <div className="xl-dib xl-co-green-300">o</div>
+                        <div className="xl-dib xl-co-blue-300">l</div>
+                        <div className="xl-dib xl-co-purple-300">o</div>
+                        <div className="xl-dib xl-co-yellow-300">r</div>
+                        <div className="xl-dib xl-co-blue-300">s</div>
+                      </Link>
+                      <a
+                        href="https://medium.com/@dnomak/the-story-behind-flexible-grid-system-50b8f3889a39"
+                        target="_blank"
+                        className={linkClass}>
+                        {this.props.content.story}
+                      </a>
+                    </span>
                   }
                   {this.props.lang == "tr" &&
-                    <Link
-                      to="/colors"
-                      className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
-                      <div className="xl-dib xl-co-red-300">R</div>
-                      <div className="xl-dib xl-co-green-300">e</div>
-                      <div className="xl-dib xl-co-blue-300">n</div>
-                      <div className="xl-dib xl-co-purple-300">k</div>
-                      <div className="xl-dib xl-co-yellow-300">l</div>
-                      <div className="xl-dib xl-co-blue-300">e</div>
-                      <div className="xl-dib xl-co-purple-300">r</div>
-                    </Link>
+                    <span>
+                      <Link
+                        to="/colors"
+                        className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
+                        <div className="xl-dib xl-co-red-300">R</div>
+                        <div className="xl-dib xl-co-green-300">e</div>
+                        <div className="xl-dib xl-co-blue-300">n</div>
+                        <div className="xl-dib xl-co-purple-300">k</div>
+                        <div className="xl-dib xl-co-yellow-300">l</div>
+                        <div className="xl-dib xl-co-blue-300">e</div>
+                        <div className="xl-dib xl-co-purple-300">r</div>
+                      </Link>
+                      <a
+                        href="https://medium.com/@dnomak/flexible-grid-systemin-hikayesi-747f379573e4"
+                        target="_blank"
+                        className={linkClass}>
+                        {this.props.content.story}
+                      </a>
+                    </span>
                   }
-                  <a
-                    href="https://medium.com/@dnomak/flexible-grid-systemin-hikayesi-747f379573e4"
-                    target="_blank"
-                    className={linkClass}>
-                    {this.props.content.story}
-                  </a>
                 </div>
               </div>
             </div>
