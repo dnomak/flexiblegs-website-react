@@ -10,10 +10,11 @@ var Sidebar = React.createClass({
 
   render: function() {
 
-    var inputEmailClass = "xl-1-1 xl-db xl-h56 xl-ba-white xl-bw2 xl-bo-green-300 xl-brl8 xl-brr0 xl-ffscp xl-pl16 lg-pl8 md-pl16 pl-co-gray-500";
-    var inputSubmitClass = "xl-1-1 xl-db xl-lh56 xl-h56 xl-co-white xl-ba-green-300 xl-fw600 xl-brr8 xl-brl0 xl-ffscp";
+    var inputEmailClass = "xl-1-1 xl-db xl-h56 xl-ba-white xl-bw2 xl-bo-green-300 xl-brl8 xl-brr0 xl-pl16 lg-pl8 md-pl16 pl-co-gray-300 xl-fs16";
+    var inputSubmitClass = "xl-1-1 xl-db xl-lh56 xl-h56 xl-co-white xl-ba-green-300 xl-fw600 xl-brr8 xl-fs18 xl-brl0";
 
     var mailchimpForm = '<form class="wrap" action="//flexible.us8.list-manage.com/subscribe/post?u=0cfb9d416ef45eba73b6368b6&amp;id='+ this.props.mailchimp.id +'" method="post" name="mc-embedded-subscribe-form" target="_blank"><div class="col xl-7-12"><input type="email" name="EMAIL" class="'+ inputEmailClass +'" placeholder="'+ this.props.mailchimp.emailAddress +'" /><div style="position: absolute; left: -5000px;"><input type="text" name="'+ this.props.mailchimp.name +'" tabindex="-1"/></div></div><div class="col xl-5-12"><input type="submit" class="'+ inputSubmitClass +'" value="'+ this.props.mailchimp.subscribe +'" name="subscribe" /></div></form>';
+    var patreonIcon = '<svg viewBox="0 0 569 546" style="width: 30px; height: 30px;" xmlns="http://www.w3.org/2000/svg"><circle fill="#052D49" cx="362.589996" cy="204.589996" r="204.589996"></circle><rect fill="#FFFFFF" x="0" y="0" width="100" height="545.799988"></rect></svg>';
 
     const parsed = queryString.parse(location.search);
 
@@ -64,8 +65,8 @@ var Sidebar = React.createClass({
 
     return (
       <div>
-        <a href="https://www.patreon.com/bePatron?u=5286443" style={{backgroundColor: '#E6461A'}} target="_blank" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-br8 xl-py16 xl-mb16 xl-tac">
-          <em className="icon-patreon icon-sm xl-co-white"/>
+        <a href="https://www.patreon.com/bePatron?u=5286443" style={{backgroundColor: '#F96854'}} target="_blank" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-co-white xl-br8 xl-h56 xl-lh56 xl-mb16 xl-tac xl-pr">
+          <span className="xl-vam xl-dib xl-lh0" dangerouslySetInnerHTML={{__html:patreonIcon}} />
           <span className="xl-di xl-vam xl-pl8">
             {this.props.common.patreon}
           </span>
@@ -76,7 +77,6 @@ var Sidebar = React.createClass({
               href="https://youtu.be/-hGM8y8WutM"
               target="_target"
               className="flexiblegs-presentation xl-db xl-co-white xl-bw4 xl-bo-white xl-pr xl-mb16 xl-br8 xl-oh">
-              <em className="icon-youtube-play icon-xl xl-1-1 xl-tac xl-pa xl-t50p xl-tty-50p" />
             </a>
             <Link to="/learn/wrap?method=css" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-ba-blue-300 xl-br8 xl-py16 xl-mb16 xl-tac">
               <em className="icon-rocket icon-sm xl-co-white"/>

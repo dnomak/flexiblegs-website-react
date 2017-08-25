@@ -45,20 +45,14 @@
 	@if $filename == long-arrow-right {
 		$char: "\E006";
 	}
-	@if $filename == patreon {
+	@if $filename == pixelperfectcss {
 		$char: "\E007";
 	}
-	@if $filename == pixelperfectcss {
+	@if $filename == rocket {
 		$char: "\E008";
 	}
-	@if $filename == rocket {
-		$char: "\E009";
-	}
 	@if $filename == twitter {
-		$char: "\E00A";
-	}
-	@if $filename == youtube-play {
-		$char: "\E00B";
+		$char: "\E009";
 	}
 
 	@return $char;
@@ -93,9 +87,6 @@
 .icon-long-arrow-right {
 	@include icon(long-arrow-right);
 }
-.icon-patreon {
-	@include icon(patreon);
-}
 .icon-pixelperfectcss {
 	@include icon(pixelperfectcss);
 }
@@ -104,7 +95,4 @@
 }
 .icon-twitter {
 	@include icon(twitter);
-}
-.icon-youtube-play {
-	@include icon(youtube-play);
 }
