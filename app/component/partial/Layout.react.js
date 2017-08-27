@@ -96,7 +96,7 @@ var Layout = React.createClass({
       <div>
         <Header
           lang={this.state.content.lang}
-          content={this.state.content.header} />
+          content={this.state.content.menu} />
         {this.props.page != "devices" &&
           <div className="xl-mx24 xl-mt24">
             <div className="xl-maw1280 xl-ma">

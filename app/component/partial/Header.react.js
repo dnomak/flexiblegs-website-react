@@ -13,8 +13,8 @@ var Header = React.createClass({
 
   render: function() {
 
-    var linkClass = "xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-co-gray-500";
-    var linkClassActive = "xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-fw600 xl-co-white ho-co-white";
+    var linkClass = "xl-vam xl-dib xl-p8 xl-fs14 xl-co-gray-500 xl-fw700";
+    var linkClassActive = "xl-vam xl-dib xl-p8 xl-fs14 xl-fw700 xl-co-white ho-co-white";
 
     var pathArray = window.location.pathname.split( '/' );
     var path = pathArray[1];
@@ -51,18 +51,13 @@ var Header = React.createClass({
                     className={path == "devices" ? linkClassActive : linkClass}>
                     {this.props.content.devices}
                   </Link>
+                  <Link
+                    to="/colors"
+                    className={path == "colors" ? linkClassActive : linkClass}>
+                    {this.props.content.colors}
+                  </Link>
                   {this.props.lang == "en" &&
                     <span>
-                      <Link
-                        to="/colors"
-                        className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
-                        <div className="xl-dib xl-co-red-300">C</div>
-                        <div className="xl-dib xl-co-green-300">o</div>
-                        <div className="xl-dib xl-co-blue-300">l</div>
-                        <div className="xl-dib xl-co-purple-300">o</div>
-                        <div className="xl-dib xl-co-yellow-300">r</div>
-                        <div className="xl-dib xl-co-blue-300">s</div>
-                      </Link>
                       <a
                         href="https://medium.com/@dnomak/the-story-behind-flexible-grid-system-50b8f3889a39"
                         target="_blank"
@@ -73,17 +68,6 @@ var Header = React.createClass({
                   }
                   {this.props.lang == "tr" &&
                     <span>
-                      <Link
-                        to="/colors"
-                        className="xl-vam xl-dib xl-p8 xl-fs16 xl-ffscp xl-cp xl-fw600 xl-ls1">
-                        <div className="xl-dib xl-co-red-300">R</div>
-                        <div className="xl-dib xl-co-green-300">e</div>
-                        <div className="xl-dib xl-co-blue-300">n</div>
-                        <div className="xl-dib xl-co-purple-300">k</div>
-                        <div className="xl-dib xl-co-yellow-300">l</div>
-                        <div className="xl-dib xl-co-blue-300">e</div>
-                        <div className="xl-dib xl-co-purple-300">r</div>
-                      </Link>
                       <a
                         href="https://medium.com/@dnomak/flexible-grid-systemin-hikayesi-747f379573e4"
                         target="_blank"

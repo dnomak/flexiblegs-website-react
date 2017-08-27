@@ -1,6 +1,14 @@
 [
   {
     "lang": "en",
+    "menu": {
+      "install": "INSTALL",
+      "learn": "LEARN",
+      "compatibility": "COMPATIBILITY",
+      "devices": "DEVICES",
+      "colors": "COLORS",
+      "story": "STORY"
+    },
     "header": {
       "homepage": "Homepage",
       "install": "Install",
@@ -65,6 +73,14 @@
   },
   {
     "lang": "tr",
+    "menu": {
+      "install": "KURULUM",
+      "learn": "ÖĞRENME",
+      "compatibility": "UYUMLULUK",
+      "devices": "CİHAZLAR",
+      "colors": "RENKLER",
+      "story": "HİKAYE"
+    },
     "header": {
       "homepage": "Anasayfa",
       "install": "Kurulum",
