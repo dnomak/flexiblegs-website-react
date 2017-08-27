@@ -11,7 +11,7 @@ var Footer = React.createClass({
         </div>
         <div className="col xl-fs14 xl-tar lg-tac">
           <a
-            href="https://github.com/dnomak"
+            href="http://dnomak.com"
             target="_blank"
             className="xl-di xl-co-gray-500"
             dangerouslySetInnerHTML={{__html:this.props.content.iLoveFlexibleGridSystem}}></a>
