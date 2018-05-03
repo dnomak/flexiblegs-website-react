@@ -46,24 +46,6 @@ var InstallCSSContent = React.createClass({
             </div>
           </div>
         </div>
-        <div>
-          <div>
-            <a
-              href="http://bower.io/search/?q=flexiblegs-css"
-              target="_blank"
-              className="xl-fw400 xl-co-black-500 xl-tdu">
-              bower
-            </a>
-          </div>
-          <div className="xl-mt8 xl-mb24">
-            <div className="code code--install">
-              <div className="tag tag--bottom">terminal</div>
-              <div className="code__content">{/*
-                */}$ bower install --save <span className="code-item">flexiblegs-css</span>{/*
-              */}</div>
-            </div>
-          </div>
-        </div>
         <div className="wrap xl-right md-1">
           <div className="col xl-4-12 lg-5-12">
             <Link to="/learn/wrap?method=css" className="xl-1-1 xl-fs18 xl-fw600 xl-db xl-lh0 xl-co-white xl-ba-blue-300 xl-br8 xl-py16 xl-mb8 xl-tac">

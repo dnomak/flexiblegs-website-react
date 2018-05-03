@@ -94,24 +94,6 @@ var InstallScssPlusContent = React.createClass({
             </div>
           </div>
         </div>
-        <div>
-          <div>
-            <a
-              href="http://bower.io/search/?q=flexiblegs-scss-plus"
-              target="_blank"
-              className="xl-fw400 xl-co-black-500 xl-tdu">
-              bower
-            </a>
-          </div>
-          <div className="xl-mt8 xl-mb8">
-            <div className="code code--install">
-              <div className="tag tag--bottom">terminal</div>
-              <div className="code__content">{/*
-                */}$ bower install --save <span className="code-item">flexiblegs-scss-plus</span>{/*
-              */}</div>
-            </div>
-          </div>
-        </div>
       </div>
     )
   }

@@ -7,8 +7,8 @@
 // Flexible Grid System
 // --------------------
 @import "helper/flexiblegs";
-@import "../bower_components/flexiblegs-scss/flexiblegs-scss";
-@import "../bower_components/flexiblegs-scss-plus/scss/helper/flexiblegs-scss-plus";
+@import "../node_modules/flexiblegs-scss/flexiblegs-scss";
+@import "../node_modules/flexiblegs-scss-plus/scss/helper/flexiblegs-scss-plus";
 
 // --------------------
 // Generated
@@ -49,7 +49,7 @@
 // Pixel Perfect CSS
 // --------------------
 @import "helper/pixelperfectcss";
-@import "../bower_components/pixelperfectcss-scss/scss/helper/pixelperfectcss-scss";
+@import "../node_modules/pixelperfectcss-scss/scss/helper/pixelperfectcss-scss";
 
 // --------------------
 // Breakpoint

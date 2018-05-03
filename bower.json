@@ -1,9 +1,0 @@
-{
-  "name": "flexiblegs-react",
-  "version": "0.0.0",
-  "devDependencies": {
-    "flexiblegs-scss": "~5.5.3",
-    "flexiblegs-scss-plus": "~5.5.3",
-    "pixelperfectcss-scss": "~1.0.2"
-  }
-}

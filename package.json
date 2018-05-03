@@ -24,7 +24,10 @@
     "react-router": "^2.5.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "flexiblegs-scss": "~5.5.3",
+    "flexiblegs-scss-plus": "~5.5.3",
+    "pixelperfectcss-scss": "~1.0.2"
   },
   "engines": {
     "node": ">= 6.9.5",
